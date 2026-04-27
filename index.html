@@ -1,98 +1,122 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Beacon Marine</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marine UI</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
-<!-- Navbar -->
-<header class="navbar">
-  <div class="logo">Beacon Marine</div>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Services</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav">
+    <h3>BEACON MARINE</h3>
+    <nav>
+      <a>Home</a>
+      <a>Company</a>
+      <a>Services</a>
+      <a>Contact</a>
+    </nav>
+  </div>
 </header>
 
-<!-- Hero -->
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-content">
-    <h1>Your Trusted Partner in Global <span>Maritime</span></h1>
-    <p>Reliable marine services worldwide</p>
-  </div>
-</section>
+  <div class="overlay"></div>
+  <div class="container hero-text">
+    <h1>
+      Your Trusted<br>
+      Partner in Global<br>
+      <span>Maritime</span><br>
+      Services
+    </h1>
 
-<!-- Services -->
-<section class="services">
-  <h2>Services</h2>
+    <p>Reliable global shipping solutions</p>
 
-  <div class="service-box">
-    <div class="left">
-      <h3>Core Services</h3>
-
-      <div class="item">
-        <h4>Crew Manning</h4>
-        <p>Professional crew supply across the globe.</p>
-      </div>
-
-      <div class="item">
-        <h4>Technical Management</h4>
-        <p>Ship maintenance & technical support.</p>
-      </div>
-    </div>
-
-    <div class="right">
-      <div class="highlight">
-        <h3>Ship Delivery</h3>
-        <p>Safe and fast vessel delivery services.</p>
-      </div>
+    <div class="btns">
+      <button class="btn">Get Started</button>
+      <button class="btn-outline">Contact</button>
     </div>
   </div>
 </section>
 
-<!-- Stats -->
+<!-- SERVICES -->
+<section class="services container">
+  <h3>Core Services</h3>
+
+  <div class="services-grid">
+
+<div class="crew">
+  <i class="fa-solid fa-users"></i>
+  <h4>Crew Manning</h4>
+</div>
+
+<div class="barge">
+  <i class="fa-solid fa-ship"></i>
+  <h4>Barge Delivery</h4>
+  <span>02</span>
+</div>
+
+<div class="tech">
+  <i class="fa-solid fa-gear"></i>
+  <h4>Technical Management</h4>
+</div>
+  </div>
+</section>
+
+<!-- STATS -->
 <section class="stats">
-  <div>20+ Years Experience</div>
-  <div>500+ Projects</div>
-  <div>100+ Clients</div>
-</section>
-
-<!-- Global -->
-<section class="global">
-  <div class="text">
-    <h2>A Presence That Spans the Globe Horizon</h2>
-    <p>Operating in multiple countries with strong network.</p>
-  </div>
-  <div class="map">
-    <img src="images/map.jag.jpg" alt="">
+  <div class="container stat-grid">
+    <div>Ships Managed</div>
+    <div>Crew Strength</div>
+    <div>Global Clients</div>
   </div>
 </section>
 
-<!-- Why Us -->
+<!-- GLOBAL -->
+<section class="global container">
+  <div class="left">
+    <h2>A Presence That Spans<br>The Global Horizon</h2>
+    <p>We deliver across worldwide maritime routes</p>
+  </div>
+  <div class="right">
+    <img src="images/map.jpg">
+  </div>
+</section>
+
+<!-- WHY -->
 <section class="why">
-  <h2>Why Partner With Us?</h2>
+  <div class="container">
+    <h2>Why Partner With Us?</h2>
 
-  <div class="grid">
-    <div class="card">Experienced Team</div>
-    <div class="card">Fast Service</div>
-    <div class="card">Global Network</div>
-    <div class="card">Reliable Support</div>
+    <div class="why-grid">
+      <div class="big">20</div>
+      <div>Innovative Services</div>
+      <div>Elite Team Fleet</div>
+      <div>Trusted Expertise</div>
+      <div>Fast Support System</div>
+      <div>Safety Compliance</div>
+    </div>
   </div>
 </section>
 
 <!-- CTA -->
-<section class="cta">
-  <h2>Ready to set sail?</h2>
-  <button>Contact Now</button>
+<section class="cta container">
+  <div>
+    <h3>Ready to set sail?</h3>
+    <button class="btn">Get Started</button>
+  </div>
+
+  <img src="images/banner.jpg">
 </section>
 
-<!-- Footer -->
-<footer>
-  <p>© 2026 Beacon Marine</p>
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© Beacon Marine Group</p>
 </footer>
 
 </body>
